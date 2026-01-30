@@ -1,0 +1,34 @@
+# virtual env
+venv/
+.env
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Django / local files
+db.sqlite3
+local_settings.py
+media/
+staticfiles/
+
+# Test / coverage
+.coverage
+htmlcov/
+.tox/
+
+# IDEs / OS
+.vscode/
+.idea/
+*.iml
+.DS_Store
+*.log
+
